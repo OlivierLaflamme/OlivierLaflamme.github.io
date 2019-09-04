@@ -322,7 +322,7 @@
   font-size: 1.5em;
   font-style: normal;
   font-weight: 700;
-  color: #66FCF1;
+  color: #F76C6C;
   margin-top: 3rem;
   margin-bottom: 1rem;
   display: block;
@@ -442,7 +442,7 @@ html {
 }
 body {
   color: #c9cacc;
-  background-color: #1A265A;
+  background-color: #A8D0E6;
   font-size: 14px;
   font-family: "Menlo", "Meslo LG", monospace;
   font-weight: 400;
@@ -582,7 +582,7 @@ body {
   font-size: 0.8rem;
   font-style: normal;
   font-weight: 200;
-  color: #66FCF1;
+  color: #F76C6C;
 }
 #header #nav ul {
   list-style-type: none;
@@ -598,13 +598,13 @@ body {
   background-repeat: repeat-x;
   background-position: bottom;
   background-size: 100% 6px;
-  background-image: linear-gradient(transparent, transparent 5px, #66FCF1 5px, #66FCF1);
+  background-image: linear-gradient(transparent, transparent 5px, #F76C6C 5px, #F76C6C);
 }
 #header #nav ul li {
   display: inline-block;
   vertical-align: middle;
   margin-right: 15px;
-  border-right: 1px dotted #66FCF1;
+  border-right: 1px dotted #F76C6C;
 }
 #header #nav ul .icon {
   display: none;
@@ -688,7 +688,7 @@ body {
   margin-right: 2rem;
 }
 #header-post #menu-icon:hover {
-  color: #66FCF1;
+  color: #F76C6C;
 }
 #header-post #menu-icon-tablet {
   float: right;
@@ -696,7 +696,7 @@ body {
   margin-right: 2rem;
 }
 #header-post #menu-icon-tablet:hover {
-  color: #66FCF1;
+  color: #F76C6C;
 }
 #header-post #top-icon-tablet {
   margin-left: 15px;
@@ -706,10 +706,10 @@ body {
   position: fixed;
 }
 #header-post #top-icon-tablet:hover {
-  color: #66FCF1;
+  color: #F76C6C;
 }
 #header-post .active {
-  color: #66FCF1;
+  color: #F76C6C;
 }
 #header-post #menu {
   visibility: hidden;
@@ -720,7 +720,7 @@ body {
   font-size: 0.8rem;
   font-style: normal;
   font-weight: 200;
-  color: #66FCF1;
+  color: #F76C6C;
 }
 #header-post #nav ul {
   line-height: 15px;
@@ -733,10 +733,10 @@ body {
   background-repeat: repeat-x;
   background-position: bottom;
   background-size: 100% 6px;
-  background-image: linear-gradient(transparent, transparent 5px, #66FCF1 5px, #66FCF1);
+  background-image: linear-gradient(transparent, transparent 5px, #F76C6C 5px, #F76C6C);
 }
 #header-post #nav ul li {
-  border-right: 1px dotted #66FCF1;
+  border-right: 1px dotted #F76C6C;
 }
 #header-post #nav ul li:last-child {
   border-right: 0;
@@ -791,7 +791,7 @@ body {
 }
 #header-post #toc .toc-level-2:before {
   content: "#";
-  color: #66FCF1;
+  color: #F76C6C;
 }
 #header-post #toc .toc-level-3 {
   font-size: 0.7rem;
@@ -879,14 +879,14 @@ body {
   text-align: center;
 }
 #footer-post #nav-footer a {
-  color: #66FCF1;
+  color: #F76C6C;
   font-size: 1rem;
 }
 #footer-post #nav-footer a:hover {
   background-repeat: repeat-x;
   background-position: bottom;
   background-size: 100% 6px;
-  background-image: linear-gradient(transparent, transparent 5px, #66FCF1 5px, #66FCF1);
+  background-image: linear-gradient(transparent, transparent 5px, #F76C6C 5px, #F76C6C);
 }
 #footer-post #nav-footer ul {
   list-style-type: none;
@@ -908,7 +908,7 @@ body {
   width: 100%;
 }
 #footer-post #actions-footer a {
-  color: #66FCF1;
+  color: #F76C6C;
 }
 #footer-post #actions-footer ul {
   list-style-type: none;
@@ -963,7 +963,7 @@ body {
 }
 #footer-post #toc-footer .toc-level-2:before {
   content: "#";
-  color: #66FCF1;
+  color: #F76C6C;
 }
 #footer-post #toc-footer .toc-level-3 {
   font-size: 0.7rem;
@@ -1062,7 +1062,7 @@ article header .postdate {
 }
 article .content h2:before {
   content: "#";
-  color: #66FCF1;
+  color: #F76C6C;
   position: absolute;
   left: -1rem;
   top: -4px;
@@ -1094,7 +1094,7 @@ article .content .video-container embed {
 }
 article .content blockquote {
   background: inherit;
-  color: #66FCF1;
+  color: #F76C6C;
   border-left: 0px solid #ccc;
   margin: 1rem 10px;
   padding: 0.5em 10px;
@@ -1104,7 +1104,7 @@ article .content blockquote p {
   margin: 0;
 }
 article .content blockquote:before {
-  color: #66FCF1;
+  color: #F76C6C;
   content: "\201C";
   font-size: 2em;
   line-height: 0.1em;
@@ -1263,7 +1263,7 @@ article .content .caption {
   padding: 4px 6px;
   text-decoration: none;
   border-radius: 5px;
-  background-color: #66FCF1;
+  background-color: #F76C6C;
   background-image: none;
 }
 .pagination a:hover {
@@ -1275,7 +1275,7 @@ article .content .caption {
 .search-input {
   width: 100%;
   font-size: 1.2rem;
-  color: #1A265A;
+  color: #A8D0E6;
   background-color: #eee;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -1286,7 +1286,7 @@ article .content .caption {
   -webkit-appearance: none;
 }
 .search-input:focus {
-  border: solid 1px #66FCF1;
+  border: solid 1px #F76C6C;
 }
 #search-result ul.search-result-list {
   list-style-type: none;
