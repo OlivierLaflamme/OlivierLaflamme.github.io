@@ -442,7 +442,7 @@ html {
 }
 body {
   color: #c9cacc;
-  background-color: #A8D0E6;
+  background-color: #24305E;
   font-size: 14px;
   font-family: "Menlo", "Meslo LG", monospace;
   font-weight: 400;
@@ -1275,7 +1275,7 @@ article .content .caption {
 .search-input {
   width: 100%;
   font-size: 1.2rem;
-  color: #A8D0E6;
+  color: #24305E;
   background-color: #eee;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
