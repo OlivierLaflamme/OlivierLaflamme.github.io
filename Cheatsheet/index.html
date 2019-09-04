@@ -82,10 +82,13 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   
   
-<!-- snippit 1 -->
   <div class="content" itemprop="articleBody">
+    <h2 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h2><h3 id="FilePermission-txt"><a href="#FilePermission-txt" class="headerlink" title="FilePermission-txt"></a>Advanced Linux File Permissions</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$find / -perm -1000 -type d 2>/dev/null <span class="comment"># Sticky bit - Only the owner of the directory or the owner of a file can delete or rename here</span></span><br><span class="line">$find / -perm -g=s -type f 2>/dev/null  <span class="comment"># SGID (chmod 2000) - run as the  group, not the user who started it.</span></span><br><span class="line">$find / -perm -u=s -type f 2>/dev/null <span class="comment"># SUID (chmod 4000) - run as the  owner, not the user who started it.</span></span><br>				<span class="line">$find / -perm -g=s -o -perm -u=s -type f 2>/dev/null<span class="comment"># SGID or SUID</span></span><br><span class="line">$for i in `locate -r "bin$"`; do find $i \( -perm -4000 -o -perm -2000 \) -type f 2>/dev/null; done<span class="comment"># code flex #1</span></span><br><span class="line">$find / -perm -g=s -o -perm -4000 ! -type l -maxdepth 3 -exec ls -ld {} \; 2>/dev/null<span class="comment"># code flex #2</span></span><br></pre></td></tr></table></figure>
+  </div>
+</article>
+<!-- EASY FORMAT
+<div class="content" itemprop="articleBody">
     <h2 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h2>
-	<!-- all Linux 1 -->
 	<h3 id="FilePermission-txt"><a href="#FilePermission-txt" class="headerlink" title="FilePermission-txt"></a>Advanced Linux File Permissions</h3>
 	<figure class="highlight bash"><table>
 	<tr>
@@ -104,15 +107,17 @@
 				<span class="line">$find / -perm -g=s -type f 2>/dev/null  
 				<span class="comment"># SGID (chmod 2000) - run as the  group, not the user who started it.</span></span><br>
 				
+				<span class="line">$find / -perm -g=s -o -perm -u=s -type f 2>/dev/null<span class="comment"># SGID or SUID</span></span><br><span class="line">$for i in `locate -r "bin$"`; do find $i \( -perm -4000 -o -perm -2000 \) -type f 2>/dev/null; done<span class="comment"># code flex #1</span></span><br><span class="line">$find / -perm -g=s -o -perm -4000 ! -type l -maxdepth 3 -exec ls -ld {} \; 2>/dev/null<span class="comment"># code flex #2</span></span><br>
+				
 				<span class="line">$find / -perm -u=s -type f 2>/dev/null <span class="comment"># SUID (chmod 4000) - run as the  owner, not the user who started it.</span></span><br>
 			</pre>
 		</td>
 	</tr>
 	</table></figure>
-
-
-  </div>
+</div>
 </article>
+
+-->
 
     </div>
     
