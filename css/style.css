@@ -859,7 +859,7 @@ body {
   transition: opacity 0.2s;
   width: 100%;
   z-index: 5000000;
-  background: #212326;
+  background: #212326; /* this footer post is back*/
   border-top: 1px solid #666673;
 }
 #footer-post a {
@@ -1406,7 +1406,7 @@ pre code {
 }
 .highlight {
   font-family: "Menlo", "Meslo LG", monospace;
-  background: #212326;
+  background: #212326; /*highlight is back*/
   -webkit-border-radius: 4px;
   border-radius: 4px;
   padding: 10px 15px;
