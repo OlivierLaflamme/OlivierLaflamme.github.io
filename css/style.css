@@ -326,7 +326,7 @@
   margin-top: 3rem;
   margin-bottom: 1rem;
   display: block;
-  -moz-osx-font-smoothing: grayscale;
+  /*-moz-osx-font-smoothing: grayscale;*/
   -webkit-font-smoothing: antialiased;
 }
 .content h2,
@@ -442,7 +442,7 @@ html {
 }
 body {
   color: #c9cacc;
-  background-color: #00255C;
+  background-color: #950740;
   font-size: 14px;
   font-family: "Menlo", "Meslo LG", monospace;
   font-weight: 400;
@@ -451,7 +451,7 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  -moz-osx-font-smoothing: grayscale;
+  /*-moz-osx-font-smoothing: grayscale;*/
   -webkit-font-smoothing: antialiased;
 }
 .content {
@@ -557,7 +557,7 @@ body {
   color: #c9cacc;
   margin-top: 0;
   margin-bottom: 0;
-  -moz-osx-font-smoothing: grayscale;
+  /*-moz-osx-font-smoothing: grayscale;*/
   -webkit-font-smoothing: antialiased;
 }
 #header a {
@@ -574,8 +574,8 @@ body {
   background-repeat: no-repeat;
   background-size: 50px 50px;
   border-radius: 5px;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  /*-webkit-filter: grayscale(100%);
+  filter: grayscale(100%);*/
 }
 #header #nav {
   letter-spacing: 0.01em;
@@ -1275,7 +1275,7 @@ article .content .caption {
 .search-input {
   width: 100%;
   font-size: 1.2rem;
-  color: #00255C;
+  color: #950740;
   background-color: #eee;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
