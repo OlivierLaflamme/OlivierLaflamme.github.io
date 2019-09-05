@@ -1037,6 +1037,10 @@ body {
 .project-list .project-item {
   margin-bottom: 5px;
 }
+#Linksoftheweek .post-list .post-item {
+  display: block;
+  
+}
 article header .posttitle {
   margin-top: 0;
   margin-bottom: 0;
@@ -1172,6 +1176,9 @@ article .content .caption {
   list-style-type: none;
   margin-left: 0;
   margin-bottom: 1rem;
+}
+#writing .post-list .post-item {
+  display: block;
 }
 #archive .post-list .post-item .meta {
   display: block;
