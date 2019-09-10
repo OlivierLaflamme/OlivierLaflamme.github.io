@@ -1242,6 +1242,10 @@ article .content .caption {
   height: 20px;
   line-height: 20px;
   vertical-align: middle;
+  width: 100%;
+}
+#footer .footer-left {
+  width: 100%;
 }
 @media (min-width: 39rem) {
   #footer {
@@ -1253,6 +1257,7 @@ article .content .caption {
   }
   #footer .footer-right {
     float: right;
+	
   }
 }
 .pagination {
