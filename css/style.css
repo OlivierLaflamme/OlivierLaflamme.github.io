@@ -4,6 +4,16 @@
 .block {
   display: block;
 }
+.box {
+	float: left;
+	background-color: #fff;
+	width: 42.5%;
+	margin-left: 5%;
+	margin-top: 40px;
+}
+.clear {
+	clear: both;
+}
 .inline-block {
   display: inline-block;
 }
